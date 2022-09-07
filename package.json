@@ -2,5 +2,23 @@
   "dependencies": {
     "express": "^4.18.1",
     "nodemon": "^2.0.19"
-  }
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "practicacssindividual",
+  "version": "1.0.0",
+  "description": "practica css Individual",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximilianoCaballoCencosud/practicaCssIndividual.git"
+  },
+  "author": "Maximiliano Caballo <pablo.caballo@cencosud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximilianoCaballoCencosud/practicaCssIndividual/issues"
+  },
+  "homepage": "https://github.com/MaximilianoCaballoCencosud/practicaCssIndividual#readme"
 }
