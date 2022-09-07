@@ -1,0 +1,75 @@
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  text-align: center;
+}
+body,
+main {
+  height: 100vh;
+  background-color: #1e1e1e;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+article {
+  width: 355px;
+  max-width: 355px;
+  height: 650px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+main > article:nth-child(1) > div:nth-child(1) span {
+  color: #fff;
+  /*border: 1px solid white;*/
+  display: block;
+  margin: auto;
+  padding: 0;
+  padding-top: calc(255px / 2 - 25px);
+}
+article > :nth-child(1) {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 255px;
+  width: 355px;
+}
+main > article:nth-child(1) > div:nth-child(1) {
+  background-image: url("/img/Background3.png");
+}
+main > article:nth-child(2) > div:nth-child(1) {
+  background-image: url("/img/Background1.png");
+}
+main > article:nth-child(3) > div:nth-child(1) {
+  background-image: url("/img/Background2.png");
+}
+p {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 30.26px;
+  padding: 30px 15px;
+  margin: 0;
+  text-align: left;
+}
+span {
+  font-size: 2rem;
+  line-height: 24.2px;
+  text-transform: uppercase;
+  padding: 34px;
+}
+@media only screen and (min-width: 768px) {
+  main > article {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  main > article:nth-child(2) {
+    margin: 0 50px;
+  }
+}
